@@ -1,0 +1,11 @@
+C:\Users\kingz\RiderProjects\Cybersec-ICS0020\HW1\Consoleapp\bin\Debug\netcoreapp2.2\Consoleapp.deps.json
+C:\Users\kingz\RiderProjects\Cybersec-ICS0020\HW1\Consoleapp\bin\Debug\netcoreapp2.2\Consoleapp.runtimeconfig.json
+C:\Users\kingz\RiderProjects\Cybersec-ICS0020\HW1\Consoleapp\bin\Debug\netcoreapp2.2\Consoleapp.runtimeconfig.dev.json
+C:\Users\kingz\RiderProjects\Cybersec-ICS0020\HW1\Consoleapp\bin\Debug\netcoreapp2.2\Consoleapp.dll
+C:\Users\kingz\RiderProjects\Cybersec-ICS0020\HW1\Consoleapp\bin\Debug\netcoreapp2.2\Consoleapp.pdb
+C:\Users\kingz\RiderProjects\Cybersec-ICS0020\HW1\Consoleapp\obj\Debug\netcoreapp2.2\Consoleapp.csprojAssemblyReference.cache
+C:\Users\kingz\RiderProjects\Cybersec-ICS0020\HW1\Consoleapp\obj\Debug\netcoreapp2.2\Consoleapp.csproj.CoreCompileInputs.cache
+C:\Users\kingz\RiderProjects\Cybersec-ICS0020\HW1\Consoleapp\obj\Debug\netcoreapp2.2\Consoleapp.AssemblyInfoInputs.cache
+C:\Users\kingz\RiderProjects\Cybersec-ICS0020\HW1\Consoleapp\obj\Debug\netcoreapp2.2\Consoleapp.AssemblyInfo.cs
+C:\Users\kingz\RiderProjects\Cybersec-ICS0020\HW1\Consoleapp\obj\Debug\netcoreapp2.2\Consoleapp.dll
+C:\Users\kingz\RiderProjects\Cybersec-ICS0020\HW1\Consoleapp\obj\Debug\netcoreapp2.2\Consoleapp.pdb
