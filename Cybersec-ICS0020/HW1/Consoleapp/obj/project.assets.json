@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kingz\\RiderProjects\\Cybersec-ICS0020\\HW1\\Consoleapp\\Consoleapp.csproj",
+      "projectUniqueName": "D:\\downloads\\ics0031-2019f\\Cybersec-ICS0020\\HW1\\Consoleapp\\Consoleapp.csproj",
       "projectName": "Consoleapp",
-      "projectPath": "C:\\Users\\kingz\\RiderProjects\\Cybersec-ICS0020\\HW1\\Consoleapp\\Consoleapp.csproj",
+      "projectPath": "D:\\downloads\\ics0031-2019f\\Cybersec-ICS0020\\HW1\\Consoleapp\\Consoleapp.csproj",
       "packagesPath": "C:\\Users\\kingz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kingz\\RiderProjects\\Cybersec-ICS0020\\HW1\\Consoleapp\\obj\\",
+      "outputPath": "D:\\downloads\\ics0031-2019f\\Cybersec-ICS0020\\HW1\\Consoleapp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

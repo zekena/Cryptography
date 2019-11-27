@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\kingz\\RiderProjects\\Cybersec-ICS0020\\HW1\\Consoleapp\\Consoleapp.csproj",
+    "projectUniqueName": "D:\\downloads\\ics0031-2019f\\Cybersec-ICS0020\\HW1\\Consoleapp\\Consoleapp.csproj",
     "projectName": "Consoleapp",
-    "projectPath": "C:\\Users\\kingz\\RiderProjects\\Cybersec-ICS0020\\HW1\\Consoleapp\\Consoleapp.csproj",
-    "outputPath": "C:\\Users\\kingz\\RiderProjects\\Cybersec-ICS0020\\HW1\\Consoleapp\\obj\\",
+    "projectPath": "D:\\downloads\\ics0031-2019f\\Cybersec-ICS0020\\HW1\\Consoleapp\\Consoleapp.csproj",
+    "outputPath": "D:\\downloads\\ics0031-2019f\\Cybersec-ICS0020\\HW1\\Consoleapp\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

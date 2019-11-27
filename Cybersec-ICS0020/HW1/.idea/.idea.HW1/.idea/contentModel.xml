@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\kingz\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\kingz\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_HW1.526208764.00" t="ExcludeRecursive" />
-    <e p="C:\Users\kingz\RiderProjects\Cybersec-ICS0020\HW1" t="IncludeFlat">
+    <e p="C:\Users\kingz\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_HW1.-101972341.00" t="ExcludeRecursive" />
+    <e p="D:\downloads\ics0031-2019f\Cybersec-ICS0020\HW1" t="IncludeFlat">
       <e p="Consoleapp" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="Consoleapp.csproj" t="IncludeRecursive" />
