@@ -104,7 +104,6 @@ namespace Consoleapp
         public static string RunDiffieHellmanEncrypt()
         {
             long primeNumber = 60000049;
-            // PNum2: 60000067
             Console.WriteLine("Prime number : " + primeNumber);
             Console.WriteLine("Base number.");
             Console.Write(">");
@@ -113,7 +112,7 @@ namespace Consoleapp
             long baseNumber = 0;
             if (!long.TryParse(baseNumberText, out baseNumber))
             {
-                throw new ArgumentException("Error :  Base Number " + baseNumberText + " is not a number");
+                Console.WriteLine("Error" + baseNumberText + " isn't a number!!");
             }
 
             Console.WriteLine("Secret Number A.");
@@ -124,7 +123,8 @@ namespace Consoleapp
 
             if (!long.TryParse(secretAText, out secretA))
             {
-                throw new ArgumentException("Error : Secret A " + secretAText + " is not a number");
+                Console.WriteLine("Error" + secretAText + " isn't a number!!");
+
             }
 
             Console.WriteLine("Secret Number B.");
@@ -134,7 +134,7 @@ namespace Consoleapp
             long secretB = 0;
             if (!long.TryParse(secretBText, out secretB))
             {
-                throw new ArgumentException("Error : Secret B " + secretBText + " is not a number");
+                Console.WriteLine("Error" + secretBText + " isn't a number!!");
             }
 
             long entityADiffie = DiffieHellmanEncrypt(baseNumber, secretA, primeNumber);
@@ -176,17 +176,12 @@ namespace Consoleapp
                 return ((generator % prime) * DiffieHellmanEncrypt(generator, secret - 1, prime)) % prime;
             }
         }
-
-        public static string RunDiffieHellmanDecrypt()
-        {
-            Console.WriteLine("No Decryption Method Avaialbe for this :'(");
-            return "";
-        }
+        
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to caesar program by Zeyad Saber Refaei Kenawi");
-            var Pro = "";
+            Console.WriteLine("Welcome !! ");
+            var pro = "";
             do
             {
                 Console.WriteLine("--------------");
@@ -197,8 +192,8 @@ namespace Consoleapp
                 Console.WriteLine("Enter D to use Diffie Helman key exchange ");
                 Console.WriteLine("--------------");
                 Console.WriteLine("enter X to exit");
-                Pro = Console.ReadLine().ToUpper();
-                if (Pro == "C")
+                pro = Console.ReadLine()?.ToUpper();
+                if (pro == "C")
                 {
                     var num = "";
                     do
@@ -209,7 +204,7 @@ namespace Consoleapp
                         Console.WriteLine("Enter D to Decrypt");
                         Console.WriteLine("--------------");
                         Console.WriteLine("enter M to go back");
-                        num = Console.ReadLine().ToUpper();
+                        num = Console.ReadLine()?.ToUpper();
                         switch (num)
                         {
                             case "E":
@@ -277,7 +272,7 @@ namespace Consoleapp
                         }
                     }
                 }
-                else if (Pro == "V")
+                else if (pro == "V")
                 {
                     var num = "";
                     do
@@ -335,10 +330,9 @@ namespace Consoleapp
                         string m = VigenereEncrypt(plainText, key2Text);
                         Console.WriteLine(m);
                         Console.Write("\n");
-                        Console.ReadKey();
                     }
                 }
-                else if (Pro == "D")
+                else if (pro == "D")
                 {
                     var num = "";
                     do
@@ -357,7 +351,7 @@ namespace Consoleapp
                         }
                     } while (num != "M");
                 }
-            } while (Pro != "X");
+            } while (pro != "X");
         }
     }
 }
