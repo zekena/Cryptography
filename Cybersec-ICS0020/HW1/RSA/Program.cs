@@ -10,6 +10,8 @@ namespace RSA
     {
         static void Main(string[] args)
         {
+            Console.InputEncoding = Encoding.UTF8;
+            Console.OutputEncoding = Encoding.UTF8;
             var num = "";
             do
             {
@@ -156,6 +158,7 @@ namespace RSA
             Console.WriteLine("Text to encrypt.");
             Console.Write(">");
             var plainTextString = Console.ReadLine()?.Trim() ?? "";
+            Console.WriteLine(plainTextString);
             var i = 0;
             var plainText = 0;
             BigInteger cipher = 0;
@@ -206,9 +209,9 @@ namespace RSA
             Console.Write(">");
             var cipherText = Console.ReadLine();
             string trimmedAmount = cipherText.Replace(".", string.Empty);
-            long cipher = 0;
+            BigInteger cipher = 0;
             var encryptText = "";
-            if (long.TryParse(trimmedAmount, out cipher))
+            if (BigInteger.TryParse(trimmedAmount, out cipher))
             {
                 string[] nums = cipherText.Split('.');
                 long[] LongNum = nums.Select(long.Parse).ToArray();

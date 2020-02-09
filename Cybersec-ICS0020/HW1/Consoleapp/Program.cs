@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 
 namespace Consoleapp
@@ -124,7 +125,6 @@ namespace Consoleapp
             if (!long.TryParse(secretAText, out secretA))
             {
                 Console.WriteLine("Error" + secretAText + " isn't a number!!");
-
             }
 
             Console.WriteLine("Secret Number B.");
@@ -176,7 +176,7 @@ namespace Consoleapp
                 return ((generator % prime) * DiffieHellmanEncrypt(generator, secret - 1, prime)) % prime;
             }
         }
-        
+
 
         static void Main(string[] args)
         {
@@ -190,6 +190,8 @@ namespace Consoleapp
                 Console.WriteLine("Enter V to use vigenere algorithm");
                 Console.WriteLine("--------------");
                 Console.WriteLine("Enter D to use Diffie Helman key exchange ");
+                Console.WriteLine("--------------");
+                Console.WriteLine("Enter O to use one-time pad ");
                 Console.WriteLine("--------------");
                 Console.WriteLine("enter X to exit");
                 pro = Console.ReadLine()?.ToUpper();
@@ -347,6 +349,52 @@ namespace Consoleapp
                         {
                             case "D":
                                 RunDiffieHellmanEncrypt();
+                                break;
+                        }
+                    } while (num != "M");
+                }
+                else if (pro == "O")
+                {
+                    var num = "";
+                    do
+                    {
+                        Console.WriteLine("One-time Pad =====>");
+                        Console.WriteLine("--------------");
+                        Console.WriteLine("Enter E to encrypt");
+                        Console.WriteLine("--------------");
+                        Console.WriteLine("Enter D to decrypt");
+                        Console.WriteLine("--------------");
+                        Console.WriteLine("Enter M to go back");
+                        num = Console.ReadLine()?.ToUpper();
+                        switch (num)
+                        {
+                            case "E":
+                                Console.WriteLine("Enter your plain text");
+                                Console.Write(">");
+                                string plainText = Console.ReadLine()?.ToUpper()?.Trim();
+                                Console.WriteLine("Enter your key");
+                                string keyText = Console.ReadLine()?.ToUpper()?.Trim();
+                                int key;
+                                if (int.TryParse(keyText, out key))
+                                {
+                                    StringBuilder output = new StringBuilder(plainText.Length);
+                                    StringBuilder plainBin = new StringBuilder(plainText);
+                                    char Text;
+                                    for (int i = 0; i < plainBin.Length; i++)
+                                    {
+                                        Text = plainBin[i];
+                                        Text = (char) (Text ^ key);
+                                        output.Append(Text);
+                                    }
+
+                                    Console.WriteLine("Plain text: " + plainText);
+                                    Console.WriteLine("Cipher Text: " + output.ToString());
+                                }
+                                else
+                                {
+                                    Console.WriteLine("This key isn't a number try again with entering a number");
+                                }
+
                                 break;
                         }
                     } while (num != "M");
