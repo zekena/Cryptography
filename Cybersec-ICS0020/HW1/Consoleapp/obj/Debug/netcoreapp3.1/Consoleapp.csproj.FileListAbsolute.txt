@@ -1,0 +1,11 @@
+/home/haman/RiderProjects/ics0031-2019f/Cybersec-ICS0020/HW1/Consoleapp/bin/Debug/netcoreapp3.1/Consoleapp
+/home/haman/RiderProjects/ics0031-2019f/Cybersec-ICS0020/HW1/Consoleapp/bin/Debug/netcoreapp3.1/Consoleapp.deps.json
+/home/haman/RiderProjects/ics0031-2019f/Cybersec-ICS0020/HW1/Consoleapp/bin/Debug/netcoreapp3.1/Consoleapp.runtimeconfig.json
+/home/haman/RiderProjects/ics0031-2019f/Cybersec-ICS0020/HW1/Consoleapp/bin/Debug/netcoreapp3.1/Consoleapp.runtimeconfig.dev.json
+/home/haman/RiderProjects/ics0031-2019f/Cybersec-ICS0020/HW1/Consoleapp/bin/Debug/netcoreapp3.1/Consoleapp.dll
+/home/haman/RiderProjects/ics0031-2019f/Cybersec-ICS0020/HW1/Consoleapp/bin/Debug/netcoreapp3.1/Consoleapp.pdb
+/home/haman/RiderProjects/ics0031-2019f/Cybersec-ICS0020/HW1/Consoleapp/obj/Debug/netcoreapp3.1/Consoleapp.csprojAssemblyReference.cache
+/home/haman/RiderProjects/ics0031-2019f/Cybersec-ICS0020/HW1/Consoleapp/obj/Debug/netcoreapp3.1/Consoleapp.AssemblyInfoInputs.cache
+/home/haman/RiderProjects/ics0031-2019f/Cybersec-ICS0020/HW1/Consoleapp/obj/Debug/netcoreapp3.1/Consoleapp.AssemblyInfo.cs
+/home/haman/RiderProjects/ics0031-2019f/Cybersec-ICS0020/HW1/Consoleapp/obj/Debug/netcoreapp3.1/Consoleapp.dll
+/home/haman/RiderProjects/ics0031-2019f/Cybersec-ICS0020/HW1/Consoleapp/obj/Debug/netcoreapp3.1/Consoleapp.pdb
