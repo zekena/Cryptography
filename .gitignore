@@ -1,5 +1,7 @@
 *.xml
 Cybersec-ICS0020/HW1/RSA/bin/
 Cybersec-ICS0020/HW1/RSA/obj/
-Cybersec-ICS0020/HW1/Consoleapp/bin
-Cybersec-ICS0020/HW1/Consoleapp/obj
+Cybersec-ICS0020/HW1/Consoleapp/bin/
+Cybersec-ICS0020/HW1/Consoleapp/obj/
+Cybersec-ICS0020/HW1/.idea/
+
