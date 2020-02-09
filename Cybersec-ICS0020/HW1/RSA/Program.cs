@@ -1,8 +1,8 @@
-﻿using System;
+using System;
 using System.Linq;
 using System.Numerics;
 using System.Text;
-
+using System.Globalization;
 
 namespace RSA
 {
@@ -10,8 +10,13 @@ namespace RSA
     {
         static void Main(string[] args)
         {
+<<<<<<< HEAD
             Console.InputEncoding = Encoding.UTF8;
             Console.OutputEncoding = Encoding.UTF8;
+=======
+            Console.OutputEncoding = Encoding.UTF8;
+            Console.InputEncoding = Encoding.UTF8;
+>>>>>>> 6bee2f40319d5b495a0287fbf1e194181bd4d56a
             var num = "";
             do
             {
@@ -163,10 +168,11 @@ namespace RSA
             var plainText = 0;
             BigInteger cipher = 0;
             var encryptText = "";
+            Console.WriteLine(plainTextString);
+            UTF8Encoding utf8 = new UTF8Encoding();
+            byte[] encodedBytes = utf8.GetBytes(plainTextString);
             do
-            {
-                    UTF8Encoding utf8 = new UTF8Encoding();
-                    byte[] encodedBytes = utf8.GetBytes(plainTextString);
+            {    
                     Console.WriteLine(encodedBytes[i]);
                     cipher = BigInteger.ModPow(encodedBytes[i], e, n);
                     encryptText += cipher + ".";
@@ -206,6 +212,7 @@ namespace RSA
                 }
             } while (!long.TryParse(nText, out nd));
             Console.WriteLine("Cipher to decrypt.");
+            Console.WriteLine("Warning don't copy the last dot '.' ");
             Console.Write(">");
             var cipherText = Console.ReadLine();
             string trimmedAmount = cipherText.Replace(".", string.Empty);
@@ -249,7 +256,7 @@ namespace RSA
                 primeFactors[i] = 0;
 
 
-            for (long p = 2; p * p <= n; p++)
+            for (long p = 3; p * p <= n; p=p+2)
             {
                 if (isPrime[p])
                 {
@@ -258,7 +265,7 @@ namespace RSA
                 }
             }
 
-            for (long i = 2; i < isPrime.Length; i++)
+            for (long i = 3; i < isPrime.Length; i = i +2)
             {
                 if (isPrime[i])
                 {
