@@ -1,3 +1,4 @@
-# ics0031-2019f
+# Cryptography in secure programming course
 
-HW1 for ICS0031
+This a homework project for secure programming course made in c# about encrypting and decrypting in multiple algorithms.
+
